@@ -1,10 +1,14 @@
 body{
+    margin: 0;
+}
+.container{
     background-color: navy;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0%;
+
 }
 
 header{
@@ -26,11 +30,20 @@ p{
 section{
     background-color: white;
     width: 600px;
-    margin-top:250px;
     padding: 30px;
     border-radius: 16px;
     box-shadow: 5px 5px 50px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: justify;
+    margin: 50px;
+}
+
+img{
+    height: auto;
+    width: 300px;
 }
 
 footer{
